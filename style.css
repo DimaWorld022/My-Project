@@ -14,7 +14,20 @@ nav {
     margin-top: 10px; 
 }
 
+#conten1 {
+    
+    width: 800px;
+    height: 500px;
+}
 
+#conten1 img {
+    margin-left: 10px;
+    
+}
+#conten1 h1 {
+    margin-left: 200px;
+    
+}
 
 nav div a {
     
@@ -22,6 +35,7 @@ nav div a {
     margin: 10px;
     text-decoration: none;
     color: #6389C6;
+    
 }
 
 
@@ -45,7 +59,13 @@ header div form {
 }
 
 
+.s1 a p {
+    position:absolute;
+    top: 37px;
+    margin-left: 10px; 
+    
 
+}
  
 
 
@@ -58,9 +78,9 @@ header div form {
 
 article {
     margin-top: 10px;
-    background-color: #DCDCDC;
+    background-color: #F0F7F7;
     width: 100%;
-    height: 500px;;
+    height: 700px;;
 }
 
 
@@ -68,8 +88,9 @@ article {
 .s1 {
     border-radius: 5px;
     width: 70px;
-    height: 40px;
-    background-color: #1F85E4;
+    height: 30px;
+    background: radial-gradient(ellipse at center, #c0a5e5 30%,#7c8cd3 100%);
+    
      
 }
 
@@ -82,6 +103,7 @@ list-style: none;
 display: inline-block;
 margin: 10px;
 float: right;
+    
 }
 
 #upnlogins li p {
@@ -97,7 +119,7 @@ margin-top: -8px;
     border-radius: 5px;
     width: 90px;
     height: 40px;
-    background-color: #D8F078;
+    background: radial-gradient(ellipse at center, #c0a5e5 30%,#7c8cd3 100%);
     text-align: center;
      
      
@@ -105,9 +127,27 @@ margin-top: -8px;
 }
 
 
-
-
-
+/* Neon header */
+#HeaderBanner h2 {
+     color: #6389C6;
+     position:absolute;
+     left: 440px;
+     top: 180px;
+     font-size: 40px;
+     font-family: 
+         
+     color: #D0F8FF;
+     text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+     0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+     0 0 40px #A5F1FF;
+    
+    
+}
+ 
+#info {
+    margin-left: 180px;
+    margin-top: -240px;
+}
 
 
 
