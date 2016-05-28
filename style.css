@@ -4,6 +4,7 @@ body {
     background-position: right top;
     background-attachment: fixed;
     background-size: cover;
+    max-width: 1000px;
     }
 
 nav {
