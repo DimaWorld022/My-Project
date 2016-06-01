@@ -20,7 +20,7 @@ body {
     background-position: right top;
     background-attachment: fixed;
     background-size: cover;
-   
+    color: red;
   
     }
 
@@ -197,7 +197,7 @@ section {
 #leftsection {
     background-color: #F2E8FA;
     height: 600px;
-    width: 200px;
+    width: 100px;
     margin-left: -290px;
     float: left;
     
