@@ -10,7 +10,7 @@
 
 
 .bannerheader h2 {
- margin-left: -300px;
+    margin-left: -5%;
     margin-top: 30px;
     font-family: oblique,arial, sans-serif;
     
@@ -141,9 +141,7 @@ margin-top: -8px;
     color: white;
 }
 
-.cont2text {
-    margin-left: 100px;
-}
+
 
 .gif2 {
     width: 700px;
@@ -363,3 +361,8 @@ html {
 
 
 /*  ====================  Animated Stars background ==================== */
+
+
+.gifimage1 {
+    margin-left: -100px;
+}
