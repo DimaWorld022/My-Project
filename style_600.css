@@ -223,8 +223,8 @@ section {
 
 .container3 {
     width: 100%;
-    height: 400px;
-    background-color: #A190DD;
+    height: 1000px;
+    background: linear-gradient(to bottom, #f7fbfc 0%,#d9edf2 40%,#add9e4 100%);
     margin-top: 50px;
     margin-left: 10px;
     color: #F6DC96;
@@ -701,8 +701,38 @@ color: #A657FF;
 /*  ====  brogressskillsbar  ====  */
 
 
-.youtubevideos li {
-    display: inline-block;
-    margin: 10px;
-    margin-left: 4%;
+
+.picturecontant {   
+   width: 100%;
+   height: 250px; 
+}
+ 
+.picturecontant2 {      
+   width: 100%;
+   height: 250px;   
+}
+
+.picturecontant3 {      
+   width: 100%;
+   height: 250px;
+}
+
+.picturecontant4 {      
+   width: 100%;
+   height: 250px;   
+}
+
+.paragraphcontant {
+   
+   margin-left: 10px;
+   width: 300px;
+   height: 150px;   
+}
+
+.paragraphcontant2 {
+   margin-top: -8%;
+   margin-left: 20%;
+   width: 900px;;
+   height: 200px;  
+   color: #000000;
 }
