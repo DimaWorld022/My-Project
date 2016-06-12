@@ -9,8 +9,8 @@
 
 
 .bannerheader h2 {
-    margin-left: 15%;
-    margin-top: 30px;
+    margin-left: -200px;
+    
     font-family: oblique,arial, sans-serif;
     
 }
@@ -66,7 +66,7 @@ header div form {
 }
 
 #HeaderBanner {
-   
+    
     width: 100%;
     
 }
@@ -131,12 +131,13 @@ margin-top: -8px;
     height: 300px;
     background: linear-gradient(to top, #c5deea 0%, #8abbd7 31%, #066dab 100%); 
     margin-left: 10px;
-    margin-top: -150px;
+    margin-top: -300px;
     color: white;
 }
 
 .cont2text {
     margin-left: 30%
+    
 }
 
 
@@ -359,4 +360,9 @@ html {
 
 .gifimage1 {
     margin-left: 30%;
+}
+
+
+footer {
+    margin-top: 10%;
 }
