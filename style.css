@@ -24,6 +24,17 @@
    
 }
 
+#aboutme2 {
+    margin-top: 30px;
+    margin-left: 43%;
+    width: 200px;
+    height: 40px;
+    background-color: #09D4FC;
+    border-radius: 5px;
+    font-size: 12px;
+   
+}
+
 #aboutme h1 {
  text-align: center;
  color: white;
@@ -32,7 +43,17 @@
 #aboutme a {
      text-decoration: none;
 }
-    
+   
+   
+#aboutme2 h1 {
+ text-align: center;
+ color: white;
+}
+
+#aboutme2 a {
+     text-decoration: none;
+}
+
  
 p {
     font-family: arial, sans-serif;
@@ -198,7 +219,7 @@ section {
 
 .container3 {
     width: 100%;
-    height: 600px;
+    height: 200px;
     background-color: #A190DD;
     margin-top: 50px;
     margin-left: 10px;
@@ -492,8 +513,7 @@ border-color: #4697e4;
 
 /*  ====================   background video for gallery page ==================== */
 
-.himage {
-    margin-left: 40%;
+ 
     
 }
 
@@ -675,3 +695,13 @@ color: #A657FF;
 		}
 		
 /*  ====  brogressskillsbar  ====  */
+
+
+.youtubevideos li {
+    display: inline-block;
+    margin: 10px;
+    margin-left: 4%;
+}
+
+
+

@@ -16,7 +16,47 @@
 }
 
 
+#aboutme {
+    margin-top: -10%;
+    margin-left: 43%;
+    width: 200px;
+    height: 40px;
+    background-color: #09D4FC;
+    border-radius: 5px;
+   
+}
 
+#aboutme2 {
+    margin-top: 30px;
+    margin-left: 43%;
+    width: 200px;
+    height: 40px;
+    background-color: #09D4FC;
+    border-radius: 5px;
+    font-size: 12px;
+   
+}
+
+#aboutme h1 {
+ text-align: center;
+ color: white;
+}
+
+#aboutme a {
+     text-decoration: none;
+}
+   
+   
+#aboutme2 h1 {
+ text-align: center;
+ color: white;
+}
+
+#aboutme2 a {
+     text-decoration: none;
+}
+
+ 
 p {
     font-family: arial, sans-serif;
 }
@@ -29,6 +69,7 @@ nav {
     background: linear-gradient(to bottom, #f2f6f8 0%,#d8e1e7 30%,#b5c6d0 54%,#e0eff9 100%); 
     border-radius: 5px;
     margin-top: 10px; 
+    margin-left: 10px;
     
 }
 
@@ -61,20 +102,23 @@ header div form {
 
 #upnavbar {
     padding-top: 10px;
-    margin-left: 20px; 
+    margin-left: 50px; 
     width: 100%;
 }
 
 #HeaderBanner {
-    
     width: 100%;
-    
+    margin-left: 10px;
+}
+
+#HeaderBanner img {
+      margin-top: -40px;
 }
 
 article {
     margin-top: 10px;
     width: 100%;
-    height: 700px;
+    
 
 }
 
@@ -118,25 +162,9 @@ margin-top: -8px;
     50% {color: #F9FB6C}
 }
  
-.container {
-
-    width: 500px;
-    height: 100px;
-    float: right;
-    margin-top: -15px;
-}
-
-.container2 {
-    width: 100%;
-    height: 300px;
-    background: linear-gradient(to top, #c5deea 0%, #8abbd7 31%, #066dab 100%); 
-    margin-left: 10px;
-    margin-top: -300px;
-    color: white;
-}
-
-.cont2text {
-    margin-left: 30%
+#content1 {
+    margin-left: 500px;
+    background-color: #DFFAE3;
     
 }
 
@@ -145,18 +173,11 @@ margin-top: -8px;
 
 section {
      width: 50%;
-     height: 500px;
+     
     
     
 }
 
-#gifbackground {
-    margin-left: 0px;
-    margin-top: -200px;
-    width: 300px;
-    height: 300px;
-    
-}
 
 
 
@@ -181,12 +202,41 @@ section {
     height: 100px;
     float: right;
     margin-top: -15px;
-    margin-right: -50px;
+    margin-right: -150px;
+}
+
+.container2 {
+    margin-top: -180px;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to top, #c5deea 0%, #8abbd7 31%, #066dab 100%); 
+    margin-left: 10px;
+    color: white;
+}
+
+.cont2text {
+    margin-left: 25%;
+}
+
+
+.container3 {
+    width: 100%;
+    height: 400px;
+    background-color: #A190DD;
+    margin-top: 50px;
+    margin-left: 10px;
+    color: #F6DC96;
+}
+
+.container3 h2 {
+   margin-left: 30%;
+   
 }
 
 
 .button{  
     margin: 8px;  
+     
 }  
 
 .button a{  
@@ -355,14 +405,302 @@ html {
 
 
 
+
 /*  ====================  Animated Stars background ==================== */
 
 
-.gifimage1 {
-    margin-left: 30%;
+
+
+
+* {
+
+
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+body {
+margin:0;
+padding:0;
+font-family: 'Roboto Slab', serif;
 }
 
 
-footer {
-    margin-top: 10%;
+#envelope {
+    margin-top: 200px; 
+    margin-left: 20%;
+}
+
+
+div#envelope{
+width: 55%;
+padding:10px 0;
+border: 2px solid gray;
+border-radius:10px;
+background-color: white;
+}
+
+form{
+width:70%;
+margin:4% 15%;
+}
+
+header {
+background-color: #4180C5;
+text-align: center;
+padding-top: 12px;
+padding-bottom: 8px;
+margin-top: -11px;
+margin-bottom: -8px;
+border-radius: 10px 10px 0 0;
+color: aliceblue;
+}
+
+
+input[type=text]{
+margin-bottom: 20px;
+margin-top: 10px;
+width:100%;
+padding: 15px;
+border-radius:5px;
+border:1px solid #7ac9b7;
+}
+
+input[type=submit] {
+margin-bottom: 20px;
+width:100%;
+padding: 15px;
+border-radius:5px;
+border:1px solid #7ac9b7;
+background-color: #4180C5;
+color: aliceblue;
+font-size:15px;
+cursor:pointer;
+}
+
+#submit:hover {
+background-color: black;
+}
+
+textarea {
+width:100%;
+padding: 15px;
+margin-top: 10px;
+border:1px solid #7ac9b7;
+border-radius:5px;
+margin-bottom: 20px;
+resize:none;
+}
+
+input[type=text]:focus,textarea:focus {
+border-color: #4697e4;
+}
+
+.formcontent {
+    margin-top: 50px;
+}
+
+
+
+/*  ====================   background video for gallery page ==================== */
+
+
+
+
+.gallerypageartc {
+    height: 500px;
+    
+}
+
+/*  ====================   background video for gallery page ==================== */
+
+ 
+    
+}
+
+
+/*  ====  jobskillsanimation  ====  */
+
+
+@-moz-keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* Firefox */
+@-webkit-keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* Webkit */
+@-ms-keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* IE */
+@keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* Opera and prob css3 final iteration */
+
+.skills0 {
+border:1px solid #000;
+-moz-transition:all 1s ease-in-out;
+-webkit-transition:all 1s ease-in-out;
+-o-transition:all 1s ease-in-out;
+-ms-transition:all 1s ease-in-out;
+transition:all 1s ease-in-out;
+/* order: name, direction, duration, iteration-count, timing-function */  
+-moz-animation:blink normal 2s infinite ease-in-out; /* Firefox */
+-webkit-animation:blink normal 2s infinite ease-in-out; /* Webkit */
+-ms-animation:blink normal 2s infinite ease-in-out; /* IE */
+animation:blink normal 2s infinite ease-in-out; /* Opera and prob css3 final iteration */
+}
+
+.imgjskills {
+    margin-left: 20%;
+}
+
+/*  ====  brogressskillsbar  ====  */
+
+
+.ptrn1 {
+ margin-left: 92%;
+ width: 50px;
+ border-radius: 20%;
+ background-color: #FFD444;
+ color: #496BF5;
+ 
+}
+
+.ptrn2 {
+ margin-left: 50%;
+ width: 70px;
+ border-radius: 20%;
+ background-color: #FFD444;
+ color: #496BF5;
+ 
+}
+
+  
+.progresbarcont1 {
+ margin-top: 5%;    
+ margin-left: 30%;    
+ width: 600px;
+ height: 300px;
+
+}
+
+.progresbarcont1 h1 {
+ margin-left: 30%;
+color: #A657FF;
+
+}
+
+
+    
+.meter { 
+			height: 20px;  /* Can be anything */
+			position: relative;
+			margin: 5px 0 20px 0; /* Just for demo spacing */
+			background: #C4EFFC;
+			-moz-border-radius: 25px;
+			-webkit-border-radius: 25px;
+			border-radius: 25px;
+			padding: 10px;
+			-webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+			-moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
+			box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
+			
+		}
+		.meter > span {
+			display: block;
+			height: 100%;
+			   -webkit-border-top-right-radius: 8px;
+			-webkit-border-bottom-right-radius: 8px;
+			       -moz-border-radius-topright: 8px;
+			    -moz-border-radius-bottomright: 8px;
+			           border-top-right-radius: 8px;
+			        border-bottom-right-radius: 8px;
+			    -webkit-border-top-left-radius: 20px;
+			 -webkit-border-bottom-left-radius: 20px;
+			        -moz-border-radius-topleft: 20px;
+			     -moz-border-radius-bottomleft: 20px;
+			            border-top-left-radius: 20px;
+			         border-bottom-left-radius: 20px;
+			background-color: rgb(43,194,83);
+			background-image: -webkit-gradient(
+			  linear,
+			  left bottom,
+			  left top,
+			  color-stop(0, rgb(43,194,83)),
+			  color-stop(1, rgb(84,240,84))
+			 );
+			background-image: -moz-linear-gradient(
+			  center bottom,
+			  rgb(43,194,83) 37%,
+			  rgb(84,240,84) 69%
+			 );
+			-webkit-box-shadow: 
+			  inset 0 2px 9px  rgba(255,255,255,0.3),
+			  inset 0 -2px 6px rgba(0,0,0,0.4);
+			-moz-box-shadow: 
+			  inset 0 2px 9px  rgba(255,255,255,0.3),
+			  inset 0 -2px 6px rgba(0,0,0,0.4);
+			box-shadow: 
+			  inset 0 2px 9px  rgba(255,255,255,0.3),
+			  inset 0 -2px 6px rgba(0,0,0,0.4);
+			position: relative;
+			overflow: hidden;
+		}
+		.meter > span:after, .animate > span > span {
+			content: "";
+			position: absolute;
+			top: 0; left: 0; bottom: 0; right: 0;
+			background-image: 
+			   -webkit-gradient(linear, 0 0, 100% 100%, 
+			      color-stop(.25, rgba(255, 255, 255, .2)), 
+			      color-stop(.25, transparent), color-stop(.5, transparent), 
+			      color-stop(.5, rgba(255, 255, 255, .2)), 
+			      color-stop(.75, rgba(255, 255, 255, .2)), 
+			      color-stop(.75, transparent), to(transparent)
+			   );
+			background-image: 
+				-moz-linear-gradient(
+				  -45deg, 
+			      rgba(255, 255, 255, .2) 25%, 
+			      transparent 25%, 
+			      transparent 50%, 
+			      rgba(255, 255, 255, .2) 50%, 
+			      rgba(255, 255, 255, .2) 75%, 
+			      transparent 75%, 
+			      transparent
+			      
+			   );
+			z-index: 100;
+			-webkit-background-size: 50px 50px;
+			-moz-background-size: 50px 50px;
+			-webkit-animation: move 2s linear infinite;
+			   -webkit-border-top-right-radius: 8px;
+			-webkit-border-bottom-right-radius: 8px;
+			       -moz-border-radius-topright: 8px;
+			    -moz-border-radius-bottomright: 8px;
+			           border-top-right-radius: 8px;
+			        border-bottom-right-radius: 8px;
+			    -webkit-border-top-left-radius: 20px;
+			 -webkit-border-bottom-left-radius: 20px;
+			        -moz-border-radius-topleft: 20px;
+			     -moz-border-radius-bottomleft: 20px;
+			            border-top-left-radius: 20px;
+			         border-bottom-left-radius: 20px;
+			overflow: hidden;
+			
+		}
+		
+		.animate > span:after {
+			display: none;
+			
+		}
+		
+		@-webkit-keyframes move {
+		    0% {
+		       background-position: 0 0;
+		    }
+		    100% {
+		       background-position: 50px 50px;
+		    }
+		}
+		
+/*  ====  brogressskillsbar  ====  */
+
+
+.youtubevideos li {
+    display: inline-block;
+    margin: 10px;
+    margin-left: 4%;
 }
